@@ -135,11 +135,11 @@ react-router-dom under the MIT license.
 react-router under the MIT license.
 @aws-crypto/sha256-js under the Apache-2.0 license.
 @aws-crypto/util under the Apache-2.0 license.
-@smithy/is-array-buffer under the Apache-2.0 license.
-@smithy/util-buffer-from under the Apache-2.0 license.
-@smithy/util-utf8 under the Apache-2.0 license.
 @aws-sdk/types under the Apache-2.0 license.
 @smithy/types under the Apache-2.0 license.
+@smithy/util-utf8 under the Apache-2.0 license.
+@smithy/is-array-buffer under the Apache-2.0 license.
+@smithy/util-buffer-from under the Apache-2.0 license.
 @aws-sdk/client-cognito-identity under the Apache-2.0 license.
 @aws-crypto/sha256-browser under the Apache-2.0 license.
 @aws-crypto/supports-web-crypto under the Apache-2.0 license.
@@ -151,8 +151,9 @@ fast-xml-builder under the MIT license.
 path-expression-matcher under the MIT license.
 strnum under the MIT license.
 @smithy/core under the Apache-2.0 license.
-@smithy/middleware-serde under the Apache-2.0 license.
 @smithy/protocol-http under the Apache-2.0 license.
+@smithy/url-parser under the Apache-2.0 license.
+@smithy/querystring-parser under the Apache-2.0 license.
 @smithy/util-base64 under the Apache-2.0 license.
 @smithy/util-body-length-browser under the Apache-2.0 license.
 @smithy/util-middleware under the Apache-2.0 license.
@@ -161,7 +162,6 @@ strnum under the MIT license.
 @smithy/querystring-builder under the Apache-2.0 license.
 @smithy/util-uri-escape under the Apache-2.0 license.
 @smithy/node-http-handler under the Apache-2.0 license.
-@smithy/abort-controller under the Apache-2.0 license.
 @smithy/util-hex-encoding under the Apache-2.0 license.
 @smithy/uuid under the Apache-2.0 license.
 @smithy/node-config-provider under the Apache-2.0 license.
@@ -170,8 +170,7 @@ strnum under the MIT license.
 @smithy/signature-v4 under the Apache-2.0 license.
 @smithy/smithy-client under the Apache-2.0 license.
 @smithy/middleware-endpoint under the Apache-2.0 license.
-@smithy/url-parser under the Apache-2.0 license.
-@smithy/querystring-parser under the Apache-2.0 license.
+@smithy/middleware-serde under the Apache-2.0 license.
 @smithy/middleware-stack under the Apache-2.0 license.
 @aws-sdk/credential-provider-node under the Apache-2.0 license.
 @aws-sdk/credential-provider-env under the Apache-2.0 license.
@@ -186,6 +185,8 @@ strnum under the MIT license.
 @aws-sdk/middleware-user-agent under the Apache-2.0 license.
 @aws-sdk/util-endpoints under the Apache-2.0 license.
 @smithy/util-endpoints under the Apache-2.0 license.
+@smithy/util-retry under the Apache-2.0 license.
+@smithy/service-error-classification under the Apache-2.0 license.
 @aws-sdk/region-config-resolver under the Apache-2.0 license.
 @smithy/config-resolver under the Apache-2.0 license.
 @smithy/util-config-provider under the Apache-2.0 license.
@@ -196,8 +197,6 @@ bowser under the MIT license.
 @smithy/invalid-dependency under the Apache-2.0 license.
 @smithy/middleware-content-length under the Apache-2.0 license.
 @smithy/middleware-retry under the Apache-2.0 license.
-@smithy/service-error-classification under the Apache-2.0 license.
-@smithy/util-retry under the Apache-2.0 license.
 @smithy/util-body-length-node under the Apache-2.0 license.
 @smithy/util-defaults-mode-browser under the Apache-2.0 license.
 @smithy/util-defaults-mode-node under the Apache-2.0 license.
@@ -286,7 +285,6 @@ fast-deep-equal under the MIT license.
 fast-uri under the BSD-3-Clause license.
 require-from-string under the MIT license.
 ajv-keywords under the MIT license.
-es-module-lexer under the MIT license.
 eslint-scope under the BSD-2-Clause license.
 esrecurse under the BSD-2-Clause license.
 estraverse under the BSD-2-Clause license.
@@ -328,6 +326,7 @@ chrome-trace-event under the MIT license.
 enhanced-resolve under the MIT license.
 graceful-fs under the ISC license.
 tapable under the MIT license.
+es-module-lexer under the MIT license.
 events under the MIT license.
 glob-to-regexp under the BSD-2-Clause license.
 json-parse-even-better-errors under the MIT license.
@@ -814,6 +813,8 @@ hookified under the MIT license.
 @cacheable/utils under the MIT license.
 qified under the MIT license.
 @csstools/css-syntax-patches-for-csstree under the MIT-0 license.
+css-tree under the MIT license.
+mdn-data under the CC0-1.0 license.
 @csstools/media-query-list-parser under the MIT license.
 @csstools/selector-specificity under the MIT-0 license.
 postcss-selector-parser under the MIT license.
@@ -827,8 +828,6 @@ error-ex under the MIT license.
 is-arrayish under the MIT license.
 lines-and-columns under the MIT license.
 css-functions-list under the MIT license.
-css-tree under the MIT license.
-mdn-data under the CC0-1.0 license.
 fast-glob under the MIT license.
 merge2 under the MIT license.
 micromatch under the MIT license.
