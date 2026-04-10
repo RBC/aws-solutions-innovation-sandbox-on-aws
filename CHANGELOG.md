@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.5] - 2026-04-10
+
+### Security
+
+- Upgraded `vite` to mitigate:
+  - [CVE-2026-39364](https://nvd.nist.gov/vuln/detail/CVE-2026-39364)
+  - [CVE-2026-39363](https://nvd.nist.gov/vuln/detail/CVE-2026-39363)
+  - [CVE-2026-39365](https://nvd.nist.gov/vuln/detail/CVE-2026-39365)
+- Updated amazonlinux base image digest
+
 ## [1.2.4] - 2026-04-02
 
 ### Security
