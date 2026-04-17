@@ -161,8 +161,13 @@ rsync "$cdk_out_dir"/asset.* "$regional_assets_dir"
 print_step "Preparing Container Images"
 find "$root_dir/source" -name Dockerfile | while read file; do
     parent_dir="$(basename "$(dirname "$file")")"
+    source_dir="$(dirname "$file")"
     mkdir -p "$ecr_dir/$SOLUTION_NAME-$parent_dir"
     cp "$file" "$ecr_dir/$SOLUTION_NAME-$parent_dir/Dockerfile"
+    # Copy patches directory if it exists alongside the Dockerfile
+    if [ -d "$source_dir/patches" ]; then
+        cp -r "$source_dir/patches" "$ecr_dir/$SOLUTION_NAME-$parent_dir/patches"
+    fi
 done
 
 print_final_success "S3 distribution build completed successfully!"

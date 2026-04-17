@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.6] - 2026-04-17
+
+### Security
+
+- Upgraded `libnghttp2` to mitigate [CVE-2026-27135](https://nvd.nist.gov/vuln/detail/CVE-2026-27135)
+- Upgraded `openssl-fips-provider-latest` to mitigate:
+  - [CVE-2026-28387](https://nvd.nist.gov/vuln/detail/CVE-2026-28387)
+  - [CVE-2026-31790](https://nvd.nist.gov/vuln/detail/CVE-2026-31790)
+- Upgraded `openssl-libs` to mitigate:
+  - [CVE-2026-28387](https://nvd.nist.gov/vuln/detail/CVE-2026-28387)
+  - [CVE-2026-31790](https://nvd.nist.gov/vuln/detail/CVE-2026-31790)
+- Upgraded `python-unversioned-command` to mitigate [CVE-2026-4519](https://nvd.nist.gov/vuln/detail/CVE-2026-4519)
+- Upgraded `python3` to mitigate [CVE-2026-4519](https://nvd.nist.gov/vuln/detail/CVE-2026-4519)
+- Upgraded `python3-libs` to mitigate [CVE-2026-4519](https://nvd.nist.gov/vuln/detail/CVE-2026-4519)
+
 ## [1.2.5] - 2026-04-10
 
 ### Security
