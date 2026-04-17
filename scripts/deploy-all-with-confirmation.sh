@@ -45,7 +45,7 @@ USER_ARN=$(echo "$ACCOUNT_INFO" | grep -o '"Arn": "[^"]*' | cut -d'"' -f4)
 USER_ID=$(echo "$ACCOUNT_INFO" | grep -o '"UserId": "[^"]*' | cut -d'"' -f4)
 
 # Get current AWS region
-CURRENT_REGION=$(aws configure get region 2>/dev/null)
+CURRENT_REGION=$(aws configure get region 2>/dev/null || true)
 if [ -z "$CURRENT_REGION" ]; then
     # Try to get from environment variable
     CURRENT_REGION=${AWS_REGION:-${AWS_DEFAULT_REGION:-"Not set"}}
