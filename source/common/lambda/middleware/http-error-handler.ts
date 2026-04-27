@@ -92,7 +92,7 @@ export const httpErrorHandler = (
     }
 
     if (baseErrorHandler.onError) {
-      await baseErrorHandler.onError(request);
+      await baseErrorHandler.onError(request as Parameters<typeof baseErrorHandler.onError>[0]);
     }
   };
 

@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.7] - 2026-04-27
+
+### Security
+
+- Upgraded `@xmldom/xmldom` to mitigate:
+  - [CVE-2026-41672](https://github.com/advisories/GHSA-j759-j44w-7fr8)
+  - [CVE-2026-41673](https://github.com/advisories/GHSA-2v35-w6hq-6mfw)
+  - [CVE-2026-41674](https://github.com/advisories/GHSA-f6ww-3ggp-fr8h)
+  - [CVE-2026-41675](https://github.com/advisories/GHSA-x6wf-f3px-wcqx)
+- Upgraded `fast-xml-parser` to mitigate [CVE-2026-41650](https://github.com/advisories/GHSA-gh4j-gqv2-49f6)
+
 ## [1.2.6] - 2026-04-17
 
 ### Security

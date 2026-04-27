@@ -16,6 +16,7 @@ This software includes third party software subject to the following copyrights:
 amazonlinux/amazonlinux under the CC-BY-SA-4.0 license.
 @amzn/innovation-sandbox-commons under the Apache-2.0 license.
 @amzn/innovation-sandbox-frontend under the Apache-2.0 license.
+@nodable/entities under the MIT license.
 @aws-northstar/ui under the Apache-2.0 license.
 @types/hast under the MIT license.
 @types/mdast under the MIT license.
@@ -42,6 +43,7 @@ mdast-util-to-string under the MIT license.
 micromark under the MIT license.
 @types/debug under the MIT license.
 @types/ms under the MIT license.
+@types/set-cookie-parser under the MIT license.
 debug under the MIT license.
 ms under the MIT license.
 micromark-core-commonmark under the MIT license.
@@ -148,6 +150,9 @@ react-router under the MIT license.
 @aws-sdk/xml-builder under the Apache-2.0 license.
 fast-xml-parser under the MIT license.
 fast-xml-builder under the MIT license.
+fast-wrap-ansi under the MIT license.
+fast-string-width under the MIT license.
+fast-string-truncated-width under the MIT license.
 path-expression-matcher under the MIT license.
 strnum under the MIT license.
 @smithy/core under the Apache-2.0 license.
@@ -637,6 +642,7 @@ has-symbols under the MIT license.
 hasown under the MIT license.
 math-intrinsics under the MIT license.
 set-function-length under the MIT license.
+set-cookie-parser under the MIT license.
 define-data-property under the MIT license.
 has-property-descriptors under the MIT license.
 call-bound under the MIT license.
